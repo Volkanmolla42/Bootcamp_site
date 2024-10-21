@@ -1,0 +1,13 @@
+div,
+img,
+p,
+section {
+    margin: 0;
+    padding: 5px;
+}
+
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
